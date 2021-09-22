@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise #3- Registration Form</title>
+    <style>
+        form {
+            display: inline-table;
+            margin: 0 auto;
+        }
+        body {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>
+        Registration Form
+    </h1>
+
+    <form>
+        <fieldset style="background-color: palegoldenrod;">
+            <legend>Personal details</legend>
+
+            <div>
+                <label>First name:</label>
+                <input type="text" name="fname">
+            </div>
+            <br>
+            <div>
+                <label>Last name:</label>
+                <input type="text" name="lname">
+            </div>
+            <br>
+            <div>
+                <label>Email address:</label>
+                <input type="email" name="email">
+            </div>
+            <br>
+            <div>
+                <label>Gender:</label>
+                <input type="radio" name="male"> Male
+                <input type="radio" name="female"> Female
+            </div>
+            <br>
+            <div>
+        </fieldset>
+        <br>
+        <fieldset style="background-color: palegoldenrod;">
+            <legend>City</legend>
+            <label>City:</label>
+            <select name="city">
+                <option value="volvo">Amman</option>
+                <option value="saab">Irbid</option>
+                <option value="mercedes">Salt</option>
+                <option value="audi">Petra</option>
+            </select>
+        </fieldset>
+
+        <br>
+            <input type="submit" value="Subscribe">
+    </form>
+</body>
+
+</html>
